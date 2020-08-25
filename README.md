@@ -1,5 +1,12 @@
 # Client-Server-UDP
 Simple client-server UDP implementation.
+For running the progrma:
+-Open two terminals.
+-Run "make" in one of them.
+-Run ./server.out <port> in the first terminal.
+-Run ./client.out <port> in the second terminal.
+Then you should see at server terminal "[+]Data receive: Hello server from client."
+  
 ## Theory:
 In UDP, the client does not form a connection with the server like in TCP and instead just sends a datagram. 
 Similarly, the server need not accept a connection and just waits for datagrams to arrive. 
@@ -23,4 +30,4 @@ Send message to server.
 Wait until response from server is recieved.
 Process reply and go back to step 2, if necessary.
 Close socket descriptor and exit.
-
+![alt text](https://github.com/MikePeri/Client-Server-UDP/blob/[branch]/image.jpg?raw=true)
