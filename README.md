@@ -30,4 +30,7 @@ Send message to server.
 Wait until response from server is recieved.
 Process reply and go back to step 2, if necessary.
 Close socket descriptor and exit.
+
+## Illustration:
+
 ![alt text](https://github.com/MikePeri/Client-Server-UDP/blob/master/udpfuncdiag.png?raw=true)
