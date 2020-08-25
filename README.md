@@ -16,20 +16,20 @@ UDP Client/Server function calls.<br />
 ## The entire process can be broken down into following steps :
 ### UDP Server :
 
-Create UDP socket.
-Bind the socket to server address.
-Wait until datagram packet arrives from client.
-Process the datagram packet and send a reply to client.
-Go back to Step 3.
+1. Create UDP socket.<br />
+2. Bind the socket to server address.<br />
+3. Wait until datagram packet arrives from client.<br />
+4. Process the datagram packet and send a reply to client.<br />
+5. Go back to Step 3.<br />
 ### UDP Client :
 
 
 
-Create UDP socket.
-Send message to server.
-Wait until response from server is recieved.
-Process reply and go back to step 2, if necessary.
-Close socket descriptor and exit.
+1. Create UDP socket.<br />
+2. Send message to server.<br />
+3. Wait until response from server is recieved.<br />
+4. Process reply and go back to step 2, if necessary.<br />
+5. Close socket descriptor and exit.<br />
 
 ## Illustration:
 
