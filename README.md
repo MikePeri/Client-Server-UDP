@@ -6,15 +6,15 @@ Similarly, the server need not accept a connection and just waits for datagrams 
 Datagrams upon arrival contain the address of sender which the server uses to send data to the correct client.
 UDP Client/Server function calls
 
-##The entire process can be broken down into following steps :
-###UDP Server :
+## The entire process can be broken down into following steps :
+### UDP Server :
 
 Create UDP socket.
 Bind the socket to server address.
 Wait until datagram packet arrives from client.
 Process the datagram packet and send a reply to client.
 Go back to Step 3.
-###UDP Client :
+### UDP Client :
 
 
 
