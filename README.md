@@ -1,10 +1,10 @@
 # Client-Server-UDP
-Simple client-server UDP implementation
+Simple client-server UDP implementation.
 ## Theory:
 In UDP, the client does not form a connection with the server like in TCP and instead just sends a datagram. 
 Similarly, the server need not accept a connection and just waits for datagrams to arrive. 
 Datagrams upon arrival contain the address of sender which the server uses to send data to the correct client.
-UDP Client/Server function calls
+UDP Client/Server function calls.
 
 ## The entire process can be broken down into following steps :
 ### UDP Server :
